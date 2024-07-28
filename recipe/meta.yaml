@@ -1,5 +1,5 @@
 {% set name = "WellApplication" %}
-{% set version = "0.5.11" %}
+{% set version = "0.5.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/utah-geological-survey/WellApplication/archive/{{ version }}.tar.gz
-  sha256: c0ca830778e33e228bd8ad21b002f1919014798bdec55da1c1fdf422d900c57d
+  sha256: 74cf9043630306e7fa04370f56046d6b62104cd989f39c8f887c2e7c5677a50b
 
 build:
   noarch: python
